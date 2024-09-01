@@ -1,0 +1,183 @@
+/* Outras regras de estilo permanecem aqui */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: linear-gradient(to right, #00416a, #e4e5e6);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e4e5e6;
+}
+
+main {
+    flex: 1;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.intro {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #00416a;
+}
+
+.intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #00416a;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0078a2;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #00416a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0078a2;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+.contact {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color:   #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2em;
+    color: #00416a;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-top: 30px;
+}
+
+.contact-info p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #00416a;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
